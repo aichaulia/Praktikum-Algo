@@ -10,35 +10,35 @@ class J1Tugas2{
 			System.out.println("1. Menghitung Kecepatan");
 			System.out.println("2. Menghitung Jarak");
 			System.out.println("3. Menghitung Waktu");
-			System.out.println("Masukkan Pilihan : ");
+			System.out.print("Masukkan Pilihan : ");
 			int pilih = sc.nextInt();
 			
 			if(pilih==1){
-				System.out.println("Menghitung Kecepatan(v)");
-				System.out.println("Masukkan Jarak(s) : ");
+				System.out.println("===Menghitung Kecepatan(v)===");
+				System.out.print("Masukkan Jarak(s) : ");
 				s = sc.nextDouble();
-				System.out.println("Masukkan Waktu(t) : ");
+				System.out.print("Masukkan Waktu(t) : ");
 				t = sc.nextDouble();
 				v = s/t;
 				System.out.print("Hasil : " +v +"m/s");
 			}else if(pilih==2){
-				System.out.println("Menghitung Jarak(s)");
+				System.out.print("===Menghitung Jarak(s)===");
 				System.out.println("Masukkan Kecepatan(v) : ");
 				v = sc.nextDouble();
-				System.out.println("Masukkan Waktu(t) : ");
+				System.out.print("Masukkan Waktu(t) : ");
 				t = sc.nextDouble();
 				s = v*t;
 				System.out.print("Hasil : " +t +"detik");
 			}else if(pilih==3){
-				System.out.println("Menghitung Waktu(s)");
-				System.out.println("Masukkan Jarak(s) : ");
+				System.out.print("===Menghitung Waktu(s)===");
+				System.out.print("Masukkan Jarak(s) : ");
 				s = sc.nextDouble();
-				System.out.println("Masukkan Kecepatan(v) : ");
+				System.out.print("Masukkan Kecepatan(v) : ");
 				v = sc.nextDouble();
 				t = s/v;
 				System.out.print("Hasil : " +t +"detik");
 			}else{
-				System.out.println("Maaf Inputan Anda Salah");
+				System.out.print("Maaf Inputan Anda Salah");
 			}
 		}
 	}

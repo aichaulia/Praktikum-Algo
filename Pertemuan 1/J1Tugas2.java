@@ -23,12 +23,12 @@ class J1Tugas2{
 				System.out.print("Hasil : " +v +"m/s");
 			}else if(pilih==2){
 				System.out.print("===Menghitung Jarak(s)===");
-				System.out.println("Masukkan Kecepatan(v) : ");
+				System.out.print("Masukkan Kecepatan(v) : ");
 				v = sc.nextDouble();
 				System.out.print("Masukkan Waktu(t) : ");
 				t = sc.nextDouble();
 				s = v*t;
-				System.out.print("Hasil : " +t +"detik");
+				System.out.print("Hasil : " +s +" meter");
 			}else if(pilih==3){
 				System.out.print("===Menghitung Waktu(s)===");
 				System.out.print("Masukkan Jarak(s) : ");
@@ -36,7 +36,7 @@ class J1Tugas2{
 				System.out.print("Masukkan Kecepatan(v) : ");
 				v = sc.nextDouble();
 				t = s/v;
-				System.out.print("Hasil : " +t +"detik");
+				System.out.print("Hasil : " +t +" detik");
 			}else{
 				System.out.print("Maaf Inputan Anda Salah");
 			}

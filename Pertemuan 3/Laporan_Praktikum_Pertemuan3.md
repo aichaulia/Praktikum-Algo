@@ -18,8 +18,8 @@
 * bisa
 2. Jika soal no satu iya, berikan contohmya! Jika tidak, jelaskan!
 * ``` java
-     manusia[][] m = new manusia[1][1];
-     m[0][0] = new manusia();
+     kucing[][] m = new kucing[2][2];
+     k[0][0] = new kucing();
      ```  
 3. Jika diketahui terdapat class Persegi yang memiliki atribut sisi bertipe int, maka kode dibawah ini akan memunculkan error saat dijalankan. Mengapa?
 * karena belum membuat objek pada inder array 5 yang seharusnya setelah line 1 terdapat line seperti berikut :
@@ -39,13 +39,13 @@
 1. Dapatkah konstruktor berjumlah lebih dalam satu kelas? Jelaskan dengan contoh!
 * dapat
 * ``` java
-    public class Anime{
+    public class Drakor{
         int episode;
-        public Anime(){
+        public Drakor(){
 
         }
-        public Anime(int a) {
-            episode = a;
+        public Drakor(int i) {
+            episode = i;
         }
     }
     ```

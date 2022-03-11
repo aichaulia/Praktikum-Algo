@@ -142,19 +142,19 @@ sgArray ke-3 alas: 25, tinggi: 10
    Keterangan : Buat looping untuk menginputkan masing-masing atributnya, kemudian tampilkan
    luas permukaan dan volume dari tiap jenis bangun ruang tersebut.
 * KUBUS
-![](../../../Algo/Praktikum-Algo/Pertemuan 3/Output/P3_Kubus.png)
+* ![P3_Kubus](Output)
 * BALOK
-![](../../../Algo/Praktikum-Algo/Pertemuan 3/Output/P3_Balok.png)
+* ![P3_Balok](Output)
 * LIMAS SEGITIGA
-![](../../../Algo/Praktikum-Algo/Pertemuan 3/Output/P3_Limas.png)
+* ![P3_Limas](Output)
 2. Sebuah perusahaan jual beli tanah membutuhkan sebuah program yang dapat memberitahu luas
    tanah. Program tersebut dapat menerima input jumlah tanah yang akan dihitung dan atribut panjang dan lebar masing-masing dari tanah yang diinputkan. Program dapat menampilkan luas
    tanah masing-masing tanah yang diinputkan tadi dan juga tanah terluas dari ketiga tanah yang
    ada.
-![](../../../Algo/Praktikum-Algo/Pertemuan 3/Output/P3_Tanah.png)
+* ![P3_Tanah](Output)
 3. Sebuah kampus membutuhkan program untuk menampilkan informasi mahasiswa berupa nama,
    nim, jenis kelamin dan juga IPK mahasiswa. Program dapat menerima input semua informasi
    tersebut, kemudian menampilkanya kembali ke user. Implementasikan program tersebut jika
    dimisalkan terdapat 3 data mahasiswa yang tersedia.
-![](../../../Algo/Praktikum-Algo/Pertemuan 3/Output/P3_Mhs1.png)
-![](../../../Algo/Praktikum-Algo/Pertemuan 3/Output/P3_Mhs2.png)
+* ![P3_Mhs1](Output)
+* ![P3_Mhs2](Output)

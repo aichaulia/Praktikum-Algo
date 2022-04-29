@@ -56,7 +56,7 @@ class Queue {
     }
     public void Enqueue (int dt){
         if (IsFull()){
-            System.out.println("Qieie sudah penuh");
+            System.out.println("Queue sudah penuh");
         }else{
             if(IsEmpty()){
                 front = rear = 0;
@@ -89,5 +89,27 @@ class Queue {
             }
         }
         return dt;
+    }
+    public void peekPosition(int n){
+        if(!IsEmpty()){
+            for(int i=0; i<data.length; i++){
+                if(n==data[i]){
+                    System.out.println("Elemen : "+data[i]+" berada pada indeks ke-"+i);
+                }
+            }
+        }else {
+            System.out.println("Queue masih kosong");
+        }
+    }
+    public void peekAt(int n){
+        if(!IsEmpty()){
+            for(int i=0; i< data.length; i++){
+                if(n==i){
+                    System.out.println("Indeks : " +i+" memiliki isi data "+data[i]);
+                }
+            }
+        }else{
+            System.out.println("Queue masih kosong");
+        }
     }
 }

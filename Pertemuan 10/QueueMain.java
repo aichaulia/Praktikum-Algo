@@ -8,6 +8,8 @@ public class QueueMain {
         System.out.println("3. Print");
         System.out.println("4. Peek");
         System.out.println("5. Clear");
+        System.out.println("6. Peek Position");
+        System.out.println("7. Peek At");
         System.out.println("-----------------------");
     }
 
@@ -41,6 +43,17 @@ public class QueueMain {
                 case 5:
                     Q.clear();
                     break;
+                case 6:
+                    System.out.print("Masukkan data yang ingin dicari : ");
+                    int cariData = sc.nextInt();
+                    Q.peekPosition(cariData);
+                    break;
+                case 7:
+                    System.out.println("Masukkan indeks : ");
+                    int cariIndeks = sc.nextInt();
+                    Q.peekAt(cariIndeks);
+                    break;
+
             }
         } while (pilih == 1 || pilih == 2 || pilih == 3 || pilih == 4 || pilih == 5);
     }
